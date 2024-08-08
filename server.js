@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
-const express = require('express');
-const router = require('./routes/index');
+const express = require("express");
+const router = require("./routes/index");
 
 const server = express();
 const PORT = process.env.PORT ? process.env.PORT : 5000;
