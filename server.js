@@ -9,6 +9,4 @@ const PORT = process.env.PORT ? process.env.PORT : 5000;
 server.use(express.json());
 server.use(router);
 
-server.listen(PORT, () =>
-  console.log(`The server is running on port: ${PORT}`)
-);
+server.listen(PORT, () => console.log(`The server is running on port: ${PORT}`));
